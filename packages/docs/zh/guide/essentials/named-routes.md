@@ -42,4 +42,5 @@ router.push({ name: 'user', params: { username: 'erina' } })
 
 <!-- TODO: translation -->
 
-Each name **must be unique** across all routes. If you add the same name to multiple routes, the router will only keep the last one. You can read more about this [in the Dynamic Routing](../advanced/dynamic-routing.md#Removing-routes) section.
+每一个`name`都必须在所有的路由中是独一无二的。如果在多个路由中添加了相同的`name`，路由只会保留最后一个。你可以在[动态路由](../advanced/dynamic-routing.md#Removing-routes)章节查看更多详情。
+
